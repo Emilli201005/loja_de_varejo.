@@ -1,0 +1,180 @@
+App.java
+public class App {
+    public static void main(String[] args)  {
+
+        Vendedor joão = new Vendedor();
+        joão .nome = " João Pedro da Silva Magalhões";
+        joão .Funcao = " Vendedor";
+        joão . NumeroDeCadastro = "Numero de cadastro:25";
+        joão . Telefone = " Telefone:+55 51 99682-3388";
+        joão .Endereço = " Endereço:Rua das flores, Numero: 901, Bairro: São pedro das caveiras";
+        joão .Salario = " Recebe: R$ 2.750,00";
+        
+
+       
+        Vendedor mariana = new Vendedor();
+        mariana .nome = " Mariana Gonsalvez de Melo";
+        mariana .Funcao = " Vendedora";
+        mariana . NumeroDeCadastro = "Numero de cadastro:80";
+        mariana . Telefone = " Telefone:+55 51 99252-9838";
+        mariana .Endereço = " Endereço: Rua Dona Maria, Numero: 552, Bairro: Santa Clara";
+        mariana .Salario = " Recebe: R$ 3.500,00";
+
+        // Imprimir os dados do Vendedor
+        System . out. println (joão . nome);  
+        System . out. println ( joão .Funcao);
+        System . out. println ( joão . NumeroDeCadastro);
+        System . out. println (joão . Telefone);
+        System . out. println (joão .Endereço);
+        System . out. println (joão .Salario);
+      
+       
+        System . out. println (mariana . nome);  
+        System . out. println ( mariana .Funcao);
+        System . out. println ( mariana . NumeroDeCadastro);
+        System . out. println (mariana . Telefone);
+        System . out. println (mariana .Endereço);
+        System . out. println (mariana .Salario);
+
+        Cliente pedro = new Cliente();
+        pedro .nome = " Cliente: Pedro Alvores Almeida";
+        pedro .rg = " Rg: 123456";
+        pedro . cpf = " Cpf: 000.555.999.63";
+        pedro . Telefone = " Telefone: +55 51 99586-2929";
+        pedro .Endereço = " Endereço: Rua Padre Gonsalo, Numero: 110, Bairro: Jorge da Silva";
+        pedro .ProdutoComprado = " Comprou: Potes";
+
+        Cliente roberta = new Cliente();
+        roberta .nome = " Cliente: Roberta ";
+        roberta .rg = " Rg: 4879652";
+        roberta . cpf = " Cpf: 111.333.787.22";
+        roberta . Telefone = " Telefone: +55 51 15345-4545";
+        roberta .Endereço = " Endereço: Rua Jurema Pinheiros, Numero: 55, Bairro: Canudos";
+        roberta .ProdutoComprado = " Comprou: Quadros";
+
+        // Imprimir os dados do Cliente
+        System . out. println (pedro . nome);  
+        System . out. println ( pedro .rg);
+        System . out. println ( pedro . cpf);
+        System . out. println (pedro . Telefone);
+        System . out. println (pedro .Endereço);
+        System . out. println (pedro .ProdutoComprado);
+      
+       
+        System . out. println (roberta . nome);  
+        System . out. println ( roberta .rg);
+        System . out. println ( roberta . cpf);
+        System . out. println (roberta . Telefone);
+        System . out. println (roberta .Endereço);
+        System . out. println (roberta .ProdutoComprado);
+
+        Fornecedor marcos = new Fornecedor();
+        marcos .nome = " Fornecedor: Marcos da Silva Padilha";
+        marcos .rg = " Rg: 3258711684";
+        marcos . cpf = " Cpf: 123.456.789.10";
+        marcos . Telefone = " Telefone: +55 51 99345-5858";
+        marcos .Endereço = " Endereço da empresa: Rua Alberto , Numero: 123, Bairro: Camelias";
+        marcos .NomeDaEmpresa = " Nome da Empresa: Familia Padilha";
+
+        Fornecedor bety = new Fornecedor();
+        bety .nome = " Fornecedor: Bety Camargo do Santos ";
+        bety .rg = " Rg: 315485245";
+        bety . cpf = " Cpf: 100.789.554.35";
+        bety . Telefone = " Telefone: +55 51 71474-6666";
+        bety .Endereço = " Endereço da empresa: Rua Pedro Pinheiros, Numero: 558, Bairro: Simgapura";
+        bety .NomeDaEmpresa = " Nome da Empresa: Madareira Camargo";
+
+        // Imprimir os dados do Fornecedor
+        System . out. println (marcos . nome);  
+        System . out. println ( marcos .rg);
+        System . out. println ( marcos . cpf);
+        System . out. println (marcos . Telefone);
+        System . out. println (marcos .Endereço);
+        System . out. println (marcos .NomeDaEmpresa);
+      
+       
+        System . out. println (bety . nome);  
+        System . out. println ( bety .rg);
+        System . out. println ( bety . cpf);
+        System . out. println (bety . Telefone);
+        System . out. println (bety .Endereço);
+        System . out. println (bety .NomeDaEmpresa);
+
+        Produtos pote = new Produtos();
+        pote .nome = " Produto: Pote tramontina";
+        pote .cores = " Cores disponiveis: Verde, vermelho, amarelho, preto e roxo";
+        pote . unidade = " Quantas unidades: 100 de cada cor";
+        pote .Material = " Material: Plastico";
+        pote .Valor = " Valor: R$20,00 a unidade";
+
+        Produtos quadro = new Produtos();
+        quadro .nome = " Produto: Quadro com moldura ";
+        quadro .cores = " Cores disponiveis: Preto, Branco e Marrom";
+        quadro . unidade = " Quantas unidades: 50 pretos e branco e 30 marrons";
+        quadro .Material = " Material: Bambu";
+        quadro .Valor = " Valor: R$12,50 a unidade";
+
+        // Imprimir os dados do Produtos
+        System . out. println (pote . nome);  
+        System . out. println ( pote .cores);
+        System . out. println ( pote . unidade);
+        System . out. println (pote .Material);
+        System . out. println (pote .Valor);
+      
+       
+        System . out. println (quadro . nome);  
+        System . out. println ( quadro .cores);
+        System . out. println ( quadro . unidade);
+        System . out. println (quadro .Material);
+        System . out. println (quadro .Valor);
+
+      
+    }
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Vendedor.java
+public class Vendedor {
+    public  String nome;
+    public String Funcao;
+    public  String NumeroDeCadastro;
+    public  String cpf;
+    public String Telefone ;
+    public String Endereço;
+    public String Salario;
+    
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Cliente.java
+public class Cliente {
+    public  String nome;
+    public  String rg;
+    public  String cpf;
+    public String Telefone ;
+    public String Endereço;
+    public String ProdutoComprado;
+    
+    
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fornecedor.java
+public class Fornecedor {
+    public  String nome;
+    public  String rg;
+    public  String cpf;
+    public String Telefone ;
+    public String Endereço;
+    public String NomeDaEmpresa;
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Produtos.java
+public class Produtos {
+    public  String nome;
+    public  String cores;
+    public  String unidade;
+    public String Material;
+    public String Valor;
+    
+}
